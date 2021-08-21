@@ -1,0 +1,22 @@
+项目说明:
+
+		使用基于Arduino的扫频电容传感技术，将植物变为“音乐植物”，手在植物上滑动时会发出不同的声音。
+
+
+硬件描述：
+
+		使用Touche作为输入，使用MP3播放器与喇叭进行输出。
+		
+		
+软件描述：
+
+		根据maxnum以及maxval的值进行音频的选择输出（maxnum、maxval分别为触摸的位置以及压力大小）。
+		
+		
+技术参考：
+
+		Touche for Arduino: Advanced Touch Sensing.
+		https://app.yinxiang.com/fx/368c7ee3-8327-48a5-ac61-a44e5e777024
+		
+		Arduino语音模块-DFPlayer Mini模块 - 创客智造
+		https://app.yinxiang.com/fx/b517c953-2edd-4473-a185-3940a66ab185
