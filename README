@@ -5,16 +5,18 @@
 
 硬件描述：
 
-		使用Touche作为输入，使用MP3播放器与喇叭进行输出。
+		将一根电线插入装有植物的土壤中、或水中作为扫频信号的输入，使用MP3播放器与喇叭进行输出。音频文件被放在音乐模块的sd卡中。
 		
 		
 软件描述：
 
-		根据maxnum以及maxval的值进行音频的选择输出（maxnum、maxval分别为触摸的位置以及压力大小）。
+		扫频技术一共扫描160个频率，返回maxnum以及maxval两个数值（分别为触摸的位置以及压力大小），用判断语句根据maxnum以及maxval的值进行音频的选择输出。
 		
 		
 技术参考：
-
+		AdvancedTouchSensing代码
+		https://github.com/Illutron/AdvancedTouchSensing
+		
 		Touche for Arduino: Advanced Touch Sensing.
 		https://app.yinxiang.com/fx/368c7ee3-8327-48a5-ac61-a44e5e777024
 		
